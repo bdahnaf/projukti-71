@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Projukti-71||UVA Problems</title>
+<link href="../images/logo.jpg" rel="shortcut icon" />
+<link href="style_main.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+p.MsoNormal {
+margin-top:0in;
+margin-right:0in;
+margin-bottom:10.0pt;
+margin-left:0in;
+line-height:115%;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+}
+-->
+</style>
+</head>
+
+<body>
+
+<!-- more scripts @ http://www.hscripts.com --><script type="text/javascript">
+var rev = "fwd";
+function titlebar(val)
+{
+	var msg  = "Projukti-71||UVA 10300 Solution";
+	var res = " ";
+	var speed = 100;
+	var pos = val;
+
+	msg = "    "+msg+" ";
+	var le = msg.length;
+	if(rev == "fwd"){
+		if(pos < le){
+		pos = pos+1;
+		scroll = msg.substr(0,pos);
+		document.title = scroll;
+		timer = window.setTimeout("titlebar("+pos+")",speed);
+		}
+		else{
+		rev = "bwd";
+		timer = window.setTimeout("titlebar("+pos+")",speed);
+		}
+	}
+	else{
+		if(pos > 0){
+		pos = pos-1;
+		var ale = le-pos;
+		scrol = msg.substr(ale,le);
+		document.title = scrol;
+		timer = window.setTimeout("titlebar("+pos+")",speed);
+		}
+		else{
+		rev = "fwd";
+		timer = window.setTimeout("titlebar("+pos+")",speed);
+		}	
+	}
+}
+
+titlebar(0);
+</script><!--   Script by hscripts.com     -->
+
+<div id="wrapper">
+  <header id="top">
+    <div id="tophead">
+      <h1>Projukti-71</h1>
+      <h1>Necessity is the mother of Invention</h1>
+    </div>
+    <nav id="mainnav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li class="active"><a href="../uva-problems1.html">UVA Problems</a></li>
+        <li><a href="../t&t.html">Tips &amp; Tricks</a></li>
+        <li><a href="../entertainment.html">Entertainment</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article id="main">
+  <article id="solution">
+    <center>
+    <p id="head"><strong>UVA 10300 Solution:</strong></p> 
+    </center>
+    <blockquote>
+      <pre style="font-size=50px; color:black;">
+#include <<tag>iostream<tag>>
+
+
+using namespace std;
+
+int main()
+{
+    int t,n;
+    long long int a,b,c,sum=0,lol;
+    cin>>t;
+    while(t--)
+    {
+        cin>>n;
+        sum=0;
+        while(n--)
+        {
+            cin>>a>>b>>c;
+            lol=a*c;
+            sum=sum+lol;
+        }
+        cout<<<tag></tag>sum<<<tag></tag>endl;
+    }
+    return 0;
+}
+
+
+
+</pre>
+    </blockquote>
+    </article>
+  </article>
+  <aside class="side">
+    <div id="sidebar1">
+      <center>
+      <iframe allowtransparency="true" frameborder="0" scrolling="no" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FProjukti-71-%25E0%25A6%25AA%25E0%25A7%258D%25E0%25A6%25B0%25E0%25A6%25AF%25E0%25A7%2581%25E0%25A6%2595%25E0%25A7%258D%25E0%25A6%25A4%25E0%25A6%25BF-%25E0%25A7%25AD%25E0%25A7%25A7%2F646242435434212%3Ffref%3Dts&amp;width=240&amp;height=290&amp;colorscheme=dark&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" style="border:none; margin-top: 5%; overflow:hidden; width:240px; height:290px; border-radius: 7%; text-align: center;"></iframe>
+      </center>
+    </div>
+    <div id="sidebar2">
+
+    </div>
+  </aside>
+  <footer id="foot"><strong>© All Rights Reserved</strong>
+  <center>
+  <iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmizanurrahmanriyadh&amp;width&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;show_faces=true&amp;appId=450427438416231" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe></center>
+  <center><iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fsakib.ahnaf&amp;width&amp;height=80&amp;colorscheme=light&amp;layout=standard&amp;show_faces=true&amp;appId=450427438416231" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:80px;" allowTransparency="true"></iframe></center>
+  </footer>
+</div>
+</body>
+
+</html>

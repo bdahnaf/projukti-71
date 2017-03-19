@@ -1,0 +1,131 @@
+﻿@charset "utf-8";
+body {
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+	background-color: #A9A9A9;
+}
+#wrapper {
+	margin-top: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+	height: 100%;
+	min-height: 100%;
+}
+#top {
+	width: auto;
+}
+#tophead {
+	text-align: center;
+	color: mediumslateblue;
+	background-color: #D8D8D8;
+	border-radius: 5% / 10%;
+	width: auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-variant: normal;
+	font-weight: bolder;
+	padding-bottom: 2px;
+}
+#mainnav {
+	float: left;
+	display: block;
+	border-radius: 15%;
+	margin-top: 2%;
+	width: 15%;
+	height: 100%;
+	clear: left;
+}
+#mainnav     ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	list-style-type: none;
+	box-shadow: 0px 0px;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#mainnav ul li {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	line-height: 125%;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+	list-style-type: none;
+	text-decoration: none;
+	border-spacing: 5px 10px;
+}
+#mainnav ul a{
+	display: block;
+	text-decoration: none;
+	font-size: medium;
+	font-weight: bold;
+	font-variant: normal;
+	font-style: normal;
+	text-shadow: 0% 0px;
+	list-style-type: none;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+#mainnav ul li a:hover {
+	background-color: #DC143C;
+	color: #000000;
+	font-size: 80%;
+	border-radius: 15%;
+}
+.active    {
+	background-color: #DC143C;
+	color: #000000;
+	font-size: 80%;
+	border-radius: 15%;
+}
+#main {
+	float: left;
+	position: static;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: inline;
+	width: 60%;
+	text-align: center;
+	height: 100%;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-right: 2%;
+	background-color: gainsboro;
+	border-radius: 15%;
+}
+.side {
+	float: left;
+	height: 100%;
+	background-color: gainsboro;
+	width: 20%;
+	margin-top: 2%;
+	border-radius: 15%;
+}
+#foot {
+	background-color: gainsboro;
+	clear: both;
+	text-align: center;
+	margin-top: 30%;
+}
+#tablemain {
+	width: 600px;
+	align: center;
+	border: 5;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+#tablemain caption {
+	text-align: center;
+	font-size: xx-large;
+	color: mediumslateblue;
+}
